@@ -1,4 +1,4 @@
-node('bulit-in') 
+node('master') 
 {
     stage('Continuous Download') 
 	{
