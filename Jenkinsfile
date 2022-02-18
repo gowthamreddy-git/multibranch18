@@ -1,4 +1,4 @@
-node('master') 
+node('bulit-in') 
 {
     stage('Continuous Download') 
 	{
@@ -8,5 +8,5 @@ node('master')
 	{
     sh label: '', script: 'mvn package'
 	}
-	/
+	
 }
